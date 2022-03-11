@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Zen+Maru+Gothic&display=swap');
+.head{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.login-btn{
+    background-color: white;
+    border: 2px solid #435566;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.login-btn:hover{
+    border-radius: 1em;
+    background-color:#435566 ;
+    color: white;
+}
+.navv{
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0,0.1);
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    color: snow;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.item1{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-self: center;
+}
+.item2{
+    display: flex;
+    width: 25%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.item1 p{
+    cursor: pointer;
+}
+.item2 p{
+    /* text-decoration: underline; */
+    /* font-weight: 700; */
+    cursor: pointer;
+}
+.image{
+    font-family: 'Audiowide', cursive;
+    color:white;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    align-self: center;
+    font-size: 2em;
+}
+.navv p{
+    padding: 1%;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    font-size: 1.5em;
+}
+.navv p:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.panel-button {
+    margin: 1.3rem 3.5rem;
+    padding: 0.8em 1.3em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2rem;
+    width: 8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+    display: inline;
+}
+.panel-button:hover {
+    box-shadow: inset 0 0 1.5em 1.5em #fff;
+    color: gray;
+}
+.panel-button:focus {
+    outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito+Sans:wght@900&family=Zen+Maru+Gothic&display=swap');
+.dp{
+    
+    margin-top: 2em;
+}
+.h3{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.logoName{
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    margin-top: 1.75em;
+}
+.title{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 1em;
+    /* line-height: em; */
+}
+.int{
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    
+
+}
+.btnn{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #548cff;
+    height: 70px;
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom:0.5em ;
+    border-radius: 40px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+.btnn:hover{
+    transform: scale(1.1);
+}
+.headder{
+    background-color:#84DFFF;
+    position:relative;
+    z-index:-1;
+    /* filter: drop-shadow(0px 5px 12px black); */
+}
